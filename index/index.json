@@ -1,0 +1,3870 @@
+{
+  "interfaceLanguages": {
+    "swift": [
+        {
+          "children": [
+            {
+              "title": "Coders",
+              "type": "groupMarker"
+            },
+            {
+              "children": [
+                {
+                  "title": "Creating A Encoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/init(dateencodingstrategy:includecbortag:keysorter:userinfo:)",
+                  "title": "init(dateEncodingStrategy: CBOREncoder.DateEncodingStrategy, includeCBORTag: Bool, keySorter: ((Any, Any) -> Bool)?, userInfo: [CodingUserInfoKey : Any])",
+                  "type": "init"
+                },
+                {
+                  "title": "Configuring The Encoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.property",
+                  "title": "var dateEncodingStrategy: CBOREncoder.DateEncodingStrategy",
+                  "type": "property"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Enumeration Cases",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.enum\\/rfc3339",
+                      "title": "case rfc3339",
+                      "type": "case"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.enum\\/secondssince1970",
+                      "title": "case secondsSince1970",
+                      "type": "case"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.enum\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.enum\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/dateencodingstrategy-swift.enum",
+                  "title": "CBOREncoder.DateEncodingStrategy",
+                  "type": "enum"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/includecbortag",
+                  "title": "var includeCBORTag: Bool",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/keysorter",
+                  "title": "var keySorter: ((Any, Any) -> Bool)?",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/userinfo",
+                  "title": "var userInfo: [CodingUserInfoKey : Any]",
+                  "type": "property"
+                },
+                {
+                  "title": "Using The Encoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/encode(_:)",
+                  "title": "func encode<T>(T) throws -> Data",
+                  "type": "method"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Type Aliases",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cborencoder\\/output",
+                      "title": "CBOREncoder.Output",
+                      "type": "typealias"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cborencoder\\/toplevelencoder-implementations",
+                  "title": "TopLevelEncoder Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cborencoder",
+              "title": "CBOREncoder",
+              "type": "class"
+            },
+            {
+              "children": [
+                {
+                  "title": "Creating A Decoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbordecoder\\/init(userinfo:)",
+                  "title": "init(userInfo: [CodingUserInfoKey : Any])",
+                  "type": "init"
+                },
+                {
+                  "title": "Configuring The Decoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbordecoder\\/userinfo",
+                  "title": "var userInfo: [CodingUserInfoKey : Any]",
+                  "type": "property"
+                },
+                {
+                  "title": "Using The Decoder",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbordecoder\\/decode(_:from:)",
+                  "title": "func decode<T>(T.Type, from: Data) throws -> T",
+                  "type": "method"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Type Aliases",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbordecoder\\/input",
+                      "title": "CBORDecoder.Input",
+                      "type": "typealias"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbordecoder\\/topleveldecoder-implementations",
+                  "title": "TopLevelDecoder Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbordecoder",
+              "title": "CBORDecoder",
+              "type": "class"
+            },
+            {
+              "title": "Custom Encoding",
+              "type": "groupMarker"
+            },
+            {
+              "children": [
+                {
+                  "title": "Creating Containers of Specific Lengths",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cborencoderprotocol\\/indefinitelengthcontainercontext(includingsubcontainers:_:)-46exh",
+                          "title": "func indefiniteLengthContainerContext<R>(includingSubcontainers: Bool, () throws -> R) rethrows -> R",
+                          "type": "method"
+                        }
+                      ],
+                      "title": "CBOREncoderProtocol Implementations",
+                      "type": "groupMarker"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cborencoderprotocol\\/indefinitelengthcontainercontext(includingsubcontainers:_:)-7195t",
+                  "title": "func indefiniteLengthContainerContext<R>(includingSubcontainers: Bool, () throws -> R) rethrows -> R",
+                  "type": "method"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cborencoderprotocol\\/definitelengthcontainercontext(includingsubcontainers:_:)-58rd2",
+                          "title": "func definiteLengthContainerContext<R>(includingSubcontainers: Bool, () throws -> R) rethrows -> R",
+                          "type": "method"
+                        }
+                      ],
+                      "title": "CBOREncoderProtocol Implementations",
+                      "type": "groupMarker"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cborencoderprotocol\\/definitelengthcontainercontext(includingsubcontainers:_:)-4guss",
+                  "title": "func definiteLengthContainerContext<R>(includingSubcontainers: Bool, () throws -> R) rethrows -> R",
+                  "type": "method"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cborencoderprotocol",
+              "title": "CBOREncoderProtocol",
+              "type": "protocol"
+            },
+            {
+              "title": "CBOR Types",
+              "type": "groupMarker"
+            },
+            {
+              "children": [
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined",
+              "title": "CBOR.Undefined",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(rawvalue:)",
+                  "title": "init(rawValue: UInt64)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/rawvalue",
+                  "title": "var rawValue: UInt64",
+                  "type": "property"
+                },
+                {
+                  "title": "Type Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/max",
+                  "title": "static let max: CBOR.NegativeUInt64",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/min",
+                  "title": "static let min: CBOR.NegativeUInt64",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(from:)-7qvap",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/==(_:_:)",
+                      "title": "static func == (CBOR.NegativeUInt64, CBOR.NegativeUInt64) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(from:)-50tmv",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/rawrepresentable-implementations",
+                  "title": "RawRepresentable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64",
+              "title": "CBOR.NegativeUInt64",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(rawvalue:)",
+                  "title": "init(rawValue: UInt8)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/rawvalue",
+                  "title": "var rawValue: UInt8",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(from:)-11ayu",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/==(_:_:)",
+                      "title": "static func == (CBOR.SimpleValue, CBOR.SimpleValue) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(from:)-6dl47",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/rawrepresentable-implementations",
+                  "title": "RawRepresentable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue",
+              "title": "CBOR.SimpleValue",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/init(ispositive:content:)",
+                  "title": "init(isPositive: Bool, content: Data)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/content",
+                  "title": "var content: Data",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/ispositive",
+                  "title": "var isPositive: Bool",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/==(_:_:)",
+                      "title": "static func == (CBOR.Bignum, CBOR.Bignum) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum",
+              "title": "CBOR.Bignum",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/init(exponent:mantissa:)",
+                  "title": "init(exponent: I1, mantissa: I2)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/exponent",
+                  "title": "var exponent: I1",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/mantissa",
+                  "title": "var mantissa: I2",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/==(_:_:)",
+                      "title": "static func == (CBOR.DecimalFraction<I1, I2>, CBOR.DecimalFraction<I1, I2>) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction",
+              "title": "CBOR.DecimalFraction",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/init(exponent:mantissa:)",
+                  "title": "init(exponent: I1, mantissa: I2)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/exponent",
+                  "title": "var exponent: I1",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/mantissa",
+                  "title": "var mantissa: I2",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/==(_:_:)",
+                      "title": "static func == (CBOR.Bigfloat<I1, I2>, CBOR.Bigfloat<I1, I2>) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat",
+              "title": "CBOR.Bigfloat",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/init(wrapping:)",
+                  "title": "init(wrapping: [Element])",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/array",
+                  "title": "var array: [Element]",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/==(_:_:)",
+                      "title": "static func == (CBOR.IndefiniteLengthArray<Element>, CBOR.IndefiniteLengthArray<Element>) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray",
+              "title": "CBOR.IndefiniteLengthArray",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/init(wrapping:)",
+                  "title": "init(wrapping: [Key : Value])",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/map",
+                  "title": "var map: [Key : Value]",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/==(_:_:)",
+                      "title": "static func == (CBOR.IndefiniteLengthMap<Key, Value>, CBOR.IndefiniteLengthMap<Key, Value>) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap",
+              "title": "CBOR.IndefiniteLengthMap",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(wrapping:)",
+                  "title": "init(wrapping: [Data])",
+                  "type": "init"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(wrapping:chunksize:)",
+                  "title": "init(wrapping: Data, chunkSize: Int)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/chunks",
+                  "title": "var chunks: [Data]",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/==(_:_:)",
+                      "title": "static func == (CBOR.IndefiniteLengthData, CBOR.IndefiniteLengthData) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata",
+              "title": "CBOR.IndefiniteLengthData",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(wrapping:)",
+                  "title": "init(wrapping: [String])",
+                  "type": "init"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(wrapping:chunksize:)",
+                  "title": "init(wrapping: String, chunkSize: Int)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/chunks",
+                  "title": "var chunks: [Data]",
+                  "type": "property"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/stringvalue",
+                  "title": "var stringValue: String?",
+                  "type": "property"
+                },
+                {
+                  "title": "Instance Methods",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/stringvalue(as:)",
+                  "title": "func stringValue(as: String.Encoding) -> String?",
+                  "type": "method"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(from:)",
+                      "title": "init(from: Decoder) throws",
+                      "type": "init"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/decodable-implementations",
+                  "title": "Decodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Operators",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/!=(_:_:)",
+                      "title": "static func != (Self, Self) -> Bool",
+                      "type": "op"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/==(_:_:)",
+                      "title": "static func == (CBOR.IndefiniteLengthString, CBOR.IndefiniteLengthString) -> Bool",
+                      "type": "op"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/equatable-implementations",
+                  "title": "Equatable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring",
+              "title": "CBOR.IndefiniteLengthString",
+              "type": "struct"
+            },
+            {
+              "children": [
+                {
+                  "title": "Initializers",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/init(encodeddata:)",
+                  "title": "init(encodedData: Data)",
+                  "type": "init"
+                },
+                {
+                  "title": "Instance Properties",
+                  "type": "groupMarker"
+                },
+                {
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encodeddata",
+                  "title": "let encodedData: Data",
+                  "type": "property"
+                },
+                {
+                  "title": "Default Implementations",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encode(to:)",
+                      "title": "func encode(to: Encoder) throws",
+                      "type": "method"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encodable-implementations",
+                  "title": "Encodable Implementations",
+                  "type": "symbol"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded",
+              "title": "CBOR.CBOREncoded",
+              "type": "struct"
+            },
+            {
+              "title": "Namespaces",
+              "type": "groupMarker"
+            },
+            {
+              "children": [
+                {
+                  "title": "CBOR Types",
+                  "type": "groupMarker"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/undefined",
+                  "title": "CBOR.Undefined",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(rawvalue:)",
+                      "title": "init(rawValue: UInt64)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/rawvalue",
+                      "title": "var rawValue: UInt64",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Type Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/max",
+                      "title": "static let max: CBOR.NegativeUInt64",
+                      "type": "property"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/min",
+                      "title": "static let min: CBOR.NegativeUInt64",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(from:)-7qvap",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/==(_:_:)",
+                          "title": "static func == (CBOR.NegativeUInt64, CBOR.NegativeUInt64) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/init(from:)-50tmv",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64\\/rawrepresentable-implementations",
+                      "title": "RawRepresentable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/negativeuint64",
+                  "title": "CBOR.NegativeUInt64",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(rawvalue:)",
+                      "title": "init(rawValue: UInt8)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/rawvalue",
+                      "title": "var rawValue: UInt8",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(from:)-11ayu",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/==(_:_:)",
+                          "title": "static func == (CBOR.SimpleValue, CBOR.SimpleValue) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/init(from:)-6dl47",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue\\/rawrepresentable-implementations",
+                      "title": "RawRepresentable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/simplevalue",
+                  "title": "CBOR.SimpleValue",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/init(ispositive:content:)",
+                      "title": "init(isPositive: Bool, content: Data)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/content",
+                      "title": "var content: Data",
+                      "type": "property"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/ispositive",
+                      "title": "var isPositive: Bool",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/==(_:_:)",
+                          "title": "static func == (CBOR.Bignum, CBOR.Bignum) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bignum",
+                  "title": "CBOR.Bignum",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/init(exponent:mantissa:)",
+                      "title": "init(exponent: I1, mantissa: I2)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/exponent",
+                      "title": "var exponent: I1",
+                      "type": "property"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/mantissa",
+                      "title": "var mantissa: I2",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/==(_:_:)",
+                          "title": "static func == (CBOR.DecimalFraction<I1, I2>, CBOR.DecimalFraction<I1, I2>) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/decimalfraction",
+                  "title": "CBOR.DecimalFraction",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/init(exponent:mantissa:)",
+                      "title": "init(exponent: I1, mantissa: I2)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/exponent",
+                      "title": "var exponent: I1",
+                      "type": "property"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/mantissa",
+                      "title": "var mantissa: I2",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/==(_:_:)",
+                          "title": "static func == (CBOR.Bigfloat<I1, I2>, CBOR.Bigfloat<I1, I2>) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/bigfloat",
+                  "title": "CBOR.Bigfloat",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/init(wrapping:)",
+                      "title": "init(wrapping: [Element])",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/array",
+                      "title": "var array: [Element]",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/==(_:_:)",
+                          "title": "static func == (CBOR.IndefiniteLengthArray<Element>, CBOR.IndefiniteLengthArray<Element>) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengtharray",
+                  "title": "CBOR.IndefiniteLengthArray",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/init(wrapping:)",
+                      "title": "init(wrapping: [Key : Value])",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/map",
+                      "title": "var map: [Key : Value]",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/==(_:_:)",
+                          "title": "static func == (CBOR.IndefiniteLengthMap<Key, Value>, CBOR.IndefiniteLengthMap<Key, Value>) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthmap",
+                  "title": "CBOR.IndefiniteLengthMap",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(wrapping:)",
+                      "title": "init(wrapping: [Data])",
+                      "type": "init"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(wrapping:chunksize:)",
+                      "title": "init(wrapping: Data, chunkSize: Int)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/chunks",
+                      "title": "var chunks: [Data]",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/==(_:_:)",
+                          "title": "static func == (CBOR.IndefiniteLengthData, CBOR.IndefiniteLengthData) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthdata",
+                  "title": "CBOR.IndefiniteLengthData",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(wrapping:)",
+                      "title": "init(wrapping: [String])",
+                      "type": "init"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(wrapping:chunksize:)",
+                      "title": "init(wrapping: String, chunkSize: Int)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/chunks",
+                      "title": "var chunks: [Data]",
+                      "type": "property"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/stringvalue",
+                      "title": "var stringValue: String?",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Instance Methods",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/stringvalue(as:)",
+                      "title": "func stringValue(as: String.Encoding) -> String?",
+                      "type": "method"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Initializers",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/init(from:)",
+                          "title": "init(from: Decoder) throws",
+                          "type": "init"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/decodable-implementations",
+                      "title": "Decodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Operators",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/!=(_:_:)",
+                          "title": "static func != (Self, Self) -> Bool",
+                          "type": "op"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/==(_:_:)",
+                          "title": "static func == (CBOR.IndefiniteLengthString, CBOR.IndefiniteLengthString) -> Bool",
+                          "type": "op"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring\\/equatable-implementations",
+                      "title": "Equatable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/indefinitelengthstring",
+                  "title": "CBOR.IndefiniteLengthString",
+                  "type": "struct"
+                },
+                {
+                  "children": [
+                    {
+                      "title": "Initializers",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/init(encodeddata:)",
+                      "title": "init(encodedData: Data)",
+                      "type": "init"
+                    },
+                    {
+                      "title": "Instance Properties",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encodeddata",
+                      "title": "let encodedData: Data",
+                      "type": "property"
+                    },
+                    {
+                      "title": "Default Implementations",
+                      "type": "groupMarker"
+                    },
+                    {
+                      "children": [
+                        {
+                          "title": "Instance Methods",
+                          "type": "groupMarker"
+                        },
+                        {
+                          "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encode(to:)",
+                          "title": "func encode(to: Encoder) throws",
+                          "type": "method"
+                        }
+                      ],
+                      "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded\\/encodable-implementations",
+                      "title": "Encodable Implementations",
+                      "type": "symbol"
+                    }
+                  ],
+                  "path": "\\/documentation\\/cborcoding\\/cbor\\/cborencoded",
+                  "title": "CBOR.CBOREncoded",
+                  "type": "struct"
+                }
+              ],
+              "path": "\\/documentation\\/cborcoding\\/cbor",
+              "title": "CBOR",
+              "type": "enum"
+            }
+          ],
+          "path": "\\/documentation\\/cborcoding",
+          "title": "CBORCoding",
+          "type": "module"
+        },
+      {
+        "children": [
+          {
+            "title": "Half-Precision",
+            "type": "groupMarker"
+          },
+          {
+            "children": [
+              {
+                "title": "Converting Integers",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-7kco9",
+                "title": "init<Source>(Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-7dq13",
+                "title": "init(Int)",
+                "type": "init"
+              },
+              {
+                "title": "Converting Floating-Point Values",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-8pz9d",
+                "title": "init<Source>(Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-303gr",
+                "title": "init(Float16)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-27j5y",
+                "title": "init(Float)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-sx6z",
+                "title": "init(Double)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-77sk",
+                "title": "init(CGFloat)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(sign:exponent:significand:)",
+                "title": "init(sign: FloatingPointSign, exponent: Int, significand: Half)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(signof:magnitudeof:)",
+                "title": "init(signOf: Self, magnitudeOf: Self)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(_:)-5317f",
+                "title": "init<Source>(Source)",
+                "type": "init"
+              },
+              {
+                "title": "Converting with No Loss of Precision",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(exactly:)-6m48t",
+                "title": "init?<Source>(exactly: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(exactly:)-5u1uj",
+                "title": "init?<Source>(exactly: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(exactly:)-7zp1d",
+                "title": "init?<Source>(exactly: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(exactly:)-39lxr",
+                "title": "init?<Source>(exactly: Source)",
+                "type": "init"
+              },
+              {
+                "title": "Creating a Random Value",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/random(in:)-6g8g9",
+                "title": "static func random(in: ClosedRange<Self>) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/random(in:using:)-1aafi",
+                "title": "static func random<T>(in: ClosedRange<Self>, using: inout T) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/random(in:)-1292g",
+                "title": "static func random(in: Range<Self>) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/random(in:using:)-5lebz",
+                "title": "static func random<T>(in: Range<Self>, using: inout T) -> Self",
+                "type": "method"
+              },
+              {
+                "title": "Performing Calculations",
+                "type": "groupMarker"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Arithmetic",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:_:)",
+                    "title": "static func + (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:_:)",
+                    "title": "static func - (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*(_:_:)",
+                    "title": "static func * (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/(_:_:)",
+                    "title": "static func \\/ (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Arithmetic with Assignment",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+=(_:_:)-75r0k",
+                    "title": "static func += (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-=(_:_:)-9q37z",
+                    "title": "static func -= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*=(_:_:)",
+                    "title": "static func *= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/=(_:_:)",
+                    "title": "static func \\/= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Comparison",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/==(_:_:)-5s308",
+                    "title": "static func == (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/!=(_:_:)",
+                    "title": "static func != (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6mxe4",
+                    "title": "static func < (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-8rfdq",
+                    "title": "static func <= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6lwhi",
+                    "title": "static func > (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-6vpuz",
+                    "title": "static func >= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Negation",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:)-7binx",
+                    "title": "static func - (Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:)",
+                    "title": "static func + (Self) -> Self",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Range Expressions",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'.._(_:)",
+                    "title": "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-1tjn1",
+                    "title": "static func ... (Self) -> PartialRangeThrough<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-4kfvw",
+                    "title": "static func ... (Self) -> PartialRangeFrom<Self>",
+                    "type": "op"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/floating-point-operators-for-half",
+                "title": "Floating-Point Operators for Half",
+                "type": "symbol"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/addingproduct(_:_:)",
+                "title": "func addingProduct(Self, Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/addproduct(_:_:)",
+                "title": "func addProduct(Half, Half)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/squareroot()",
+                "title": "func squareRoot() -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/formsquareroot()",
+                "title": "func formSquareRoot()",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/remainder(dividingby:)",
+                "title": "func remainder(dividingBy: Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/formremainder(dividingby:)",
+                "title": "func formRemainder(dividingBy: Half)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/truncatingremainder(dividingby:)",
+                "title": "func truncatingRemainder(dividingBy: Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/formtruncatingremainder(dividingby:)",
+                "title": "func formTruncatingRemainder(dividingBy: Half)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/negate()-87nlz",
+                "title": "func negate()",
+                "type": "method"
+              },
+              {
+                "title": "Rounding Values",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/rounded()",
+                "title": "func rounded() -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/rounded(_:)",
+                "title": "func rounded(FloatingPointRoundingRule) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/round()",
+                "title": "func round()",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/round(_:)",
+                "title": "func round(FloatingPointRoundingRule)",
+                "type": "method"
+              },
+              {
+                "title": "Comparing Values",
+                "type": "groupMarker"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Arithmetic",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:_:)",
+                    "title": "static func + (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:_:)",
+                    "title": "static func - (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*(_:_:)",
+                    "title": "static func * (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/(_:_:)",
+                    "title": "static func \\/ (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Arithmetic with Assignment",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+=(_:_:)-75r0k",
+                    "title": "static func += (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-=(_:_:)-9q37z",
+                    "title": "static func -= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*=(_:_:)",
+                    "title": "static func *= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/=(_:_:)",
+                    "title": "static func \\/= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Comparison",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/==(_:_:)-5s308",
+                    "title": "static func == (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/!=(_:_:)",
+                    "title": "static func != (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6mxe4",
+                    "title": "static func < (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-8rfdq",
+                    "title": "static func <= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6lwhi",
+                    "title": "static func > (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-6vpuz",
+                    "title": "static func >= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Negation",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:)-7binx",
+                    "title": "static func - (Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:)",
+                    "title": "static func + (Self) -> Self",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Range Expressions",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'.._(_:)",
+                    "title": "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-1tjn1",
+                    "title": "static func ... (Self) -> PartialRangeThrough<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-4kfvw",
+                    "title": "static func ... (Self) -> PartialRangeFrom<Self>",
+                    "type": "op"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/floating-point-operators-for-half",
+                "title": "Floating-Point Operators for Half",
+                "type": "symbol"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isequal(to:)",
+                "title": "func isEqual(to: Half) -> Bool",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isless(than:)",
+                "title": "func isLess(than: Half) -> Bool",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/islessthanorequalto(_:)",
+                "title": "func isLessThanOrEqualTo(Half) -> Bool",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/istotallyordered(beloworequalto:)",
+                "title": "func isTotallyOrdered(belowOrEqualTo: Self) -> Bool",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/minimum(_:_:)",
+                "title": "static func minimum(Self, Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/minimummagnitude(_:_:)",
+                "title": "static func minimumMagnitude(Self, Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/maximum(_:_:)",
+                "title": "static func maximum(Self, Self) -> Self",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/maximummagnitude(_:_:)",
+                "title": "static func maximumMagnitude(Self, Self) -> Self",
+                "type": "method"
+              },
+              {
+                "title": "Finding the Sign and Magnitude",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/magnitude",
+                "title": "var magnitude: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/sign",
+                "title": "var sign: FloatingPointSign",
+                "type": "property"
+              },
+              {
+                "title": "Querying a Half",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/ulp",
+                "title": "var ulp: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/significand",
+                "title": "var significand: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/exponent",
+                "title": "var exponent: Int",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/nextup",
+                "title": "var nextUp: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/nextdown",
+                "title": "var nextDown: Self",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/binade",
+                "title": "var binade: Half",
+                "type": "property"
+              },
+              {
+                "title": "Accessing Numeric Constants",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/pi",
+                "title": "static var pi: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/infinity",
+                "title": "static var infinity: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/greatestfinitemagnitude",
+                "title": "static var greatestFiniteMagnitude: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/nan",
+                "title": "static var nan: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/signalingnan",
+                "title": "static var signalingNaN: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/ulpofone-7ie3h",
+                "title": "static var ulpOfOne: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/leastnonzeromagnitude",
+                "title": "static var leastNonzeroMagnitude: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/leastnormalmagnitude",
+                "title": "static var leastNormalMagnitude: Half",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/zero",
+                "title": "static var zero: Self",
+                "type": "property"
+              },
+              {
+                "title": "Working with Binary Representation",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/bitpattern",
+                "title": "var bitPattern: UInt16",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/significandbitpattern",
+                "title": "var significandBitPattern: UInt16",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/significandwidth",
+                "title": "var significandWidth: Int",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/exponentbitpattern",
+                "title": "var exponentBitPattern: UInt",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/significandbitcount",
+                "title": "static var significandBitCount: Int",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/exponentbitcount",
+                "title": "static var exponentBitCount: Int",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/radix",
+                "title": "static var radix: Int",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(bitpattern:)",
+                "title": "init(bitPattern: UInt16)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(sign:exponentbitpattern:significandbitpattern:)",
+                "title": "init(sign: FloatingPointSign, exponentBitPattern: UInt, significandBitPattern: UInt16)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(nan:signaling:)",
+                "title": "init(nan: UInt16, signaling: Bool)",
+                "type": "init"
+              },
+              {
+                "title": "Querying a Half’s State",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/iszero",
+                "title": "var isZero: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isfinite",
+                "title": "var isFinite: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isinfinite",
+                "title": "var isInfinite: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isnan",
+                "title": "var isNaN: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/issignalingnan",
+                "title": "var isSignalingNaN: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/isnormal",
+                "title": "var isNormal: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/issubnormal",
+                "title": "var isSubnormal: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/iscanonical",
+                "title": "var isCanonical: Bool",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/floatingpointclass",
+                "title": "var floatingPointClass: FloatingPointClassification",
+                "type": "property"
+              },
+              {
+                "title": "Encoding and Decoding Values",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/encode(to:)",
+                "title": "func encode(to: Encoder) throws",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(from:)",
+                "title": "init(from: Decoder) throws",
+                "type": "init"
+              },
+              {
+                "title": "Creating a Range",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/'.._(_:_:)",
+                "title": "static func ..< (Self, Self) -> Range<Self>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/'...(_:_:)",
+                "title": "static func ... (Self, Self) -> ClosedRange<Self>",
+                "type": "op"
+              },
+              {
+                "title": "Describing a Half",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/description",
+                "title": "var description: String",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/debugdescription",
+                "title": "var debugDescription: String",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/custommirror",
+                "title": "var customMirror: Mirror",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/hash(into:)",
+                "title": "func hash(into: inout Hasher)",
+                "type": "method"
+              },
+              {
+                "title": "Infrequently Used Functionality",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init()",
+                "title": "init()",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(floatliteral:)",
+                "title": "init(floatLiteral: Float)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/init(integerliteral:)",
+                "title": "init(integerLiteral: Int64)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/advanced(by:)",
+                "title": "func advanced(by: Half) -> Half",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/distance(to:)",
+                "title": "func distance(to: Half) -> Half",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/write(to:)",
+                "title": "func write<Target>(to: inout Target)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/half\\/half\\/hashvalue",
+                "title": "var hashValue: Int",
+                "type": "property"
+              },
+              {
+                "title": "Default Implementations",
+                "type": "groupMarker"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:)",
+                    "title": "static func + (Self) -> Self",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+=(_:_:)-82r4r",
+                    "title": "static func += (inout Self, Self)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-=(_:_:)-34elb",
+                    "title": "static func -= (inout Self, Self)",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Type Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/zero",
+                    "title": "static var zero: Self",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/additivearithmetic-implementations",
+                "title": "AdditiveArithmetic Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-27j5y",
+                    "title": "init(Float)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-5317f",
+                    "title": "init<Source>(Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-8pz9d",
+                    "title": "init<Source>(Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-fa30",
+                    "title": "init<Source>(Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-sx6z",
+                    "title": "init(Double)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(exactly:)-39lxr",
+                    "title": "init?<Source>(exactly: Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(exactly:)-6m48t",
+                    "title": "init?<Source>(exactly: Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(exactly:)-7zp1d",
+                    "title": "init?<Source>(exactly: Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(sign:exponentbitpattern:significandbitpattern:)",
+                    "title": "init(sign: FloatingPointSign, exponentBitPattern: UInt, significandBitPattern: UInt16)",
+                    "type": "init"
+                  },
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/binade",
+                    "title": "var binade: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/exponentbitpattern",
+                    "title": "var exponentBitPattern: UInt",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/significandbitpattern",
+                    "title": "var significandBitPattern: UInt16",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/significandwidth",
+                    "title": "var significandWidth: Int",
+                    "type": "property"
+                  },
+                  {
+                    "title": "Type Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/exponentbitcount",
+                    "title": "static var exponentBitCount: Int",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/significandbitcount",
+                    "title": "static var significandBitCount: Int",
+                    "type": "property"
+                  },
+                  {
+                    "title": "Type Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/random(in:)-1292g",
+                    "title": "static func random(in: Range<Self>) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/random(in:)-6g8g9",
+                    "title": "static func random(in: ClosedRange<Self>) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/random(in:using:)-1aafi",
+                    "title": "static func random<T>(in: ClosedRange<Self>, using: inout T) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/random(in:using:)-5lebz",
+                    "title": "static func random<T>(in: Range<Self>, using: inout T) -> Self",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/binaryfloatingpoint-implementations",
+                "title": "BinaryFloatingPoint Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-1tjn1",
+                    "title": "static func ... (Self) -> PartialRangeThrough<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:)-4kfvw",
+                    "title": "static func ... (Self) -> PartialRangeFrom<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'...(_:_:)",
+                    "title": "static func ... (Self, Self) -> ClosedRange<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'.._(_:)",
+                    "title": "static func ..< (Self) -> PartialRangeUpTo<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/'.._(_:_:)",
+                    "title": "static func ..< (Self, Self) -> Range<Self>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6lwhi",
+                    "title": "static func > (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-6mxe4",
+                    "title": "static func < (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-7hpl5",
+                    "title": "static func < (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_(_:_:)-99edf",
+                    "title": "static func > (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-66628",
+                    "title": "static func <= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-6vpuz",
+                    "title": "static func >= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-75cut",
+                    "title": "static func >= (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/_=(_:_:)-8rfdq",
+                    "title": "static func <= (Self, Self) -> Bool",
+                    "type": "op"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/comparable-implementations",
+                "title": "Comparable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/debugdescription",
+                    "title": "var debugDescription: String",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/customdebugstringconvertible-implementations",
+                "title": "CustomDebugStringConvertible Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/playgrounddescription",
+                    "title": "var playgroundDescription: Any",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/customplaygrounddisplayconvertible-implementations",
+                "title": "CustomPlaygroundDisplayConvertible Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/custommirror",
+                    "title": "var customMirror: Mirror",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/customreflectable-implementations",
+                "title": "CustomReflectable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/description",
+                    "title": "var description: String",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/customstringconvertible-implementations",
+                "title": "CustomStringConvertible Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(from:)",
+                    "title": "init(from: Decoder) throws",
+                    "type": "init"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/decodable-implementations",
+                "title": "Decodable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/encode(to:)",
+                    "title": "func encode(to: Encoder) throws",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/encodable-implementations",
+                "title": "Encodable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/!=(_:_:)",
+                    "title": "static func != (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/==(_:_:)-5dmhu",
+                    "title": "static func == (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/==(_:_:)-5s308",
+                    "title": "static func == (Self, Self) -> Bool",
+                    "type": "op"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/equatable-implementations",
+                "title": "Equatable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(floatliteral:)",
+                    "title": "init(floatLiteral: Float)",
+                    "type": "init"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/expressiblebyfloatliteral-implementations",
+                "title": "ExpressibleByFloatLiteral Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(integerliteral:)",
+                    "title": "init(integerLiteral: Int64)",
+                    "type": "init"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/expressiblebyintegerliteral-implementations",
+                "title": "ExpressibleByIntegerLiteral Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*(_:_:)",
+                    "title": "static func * (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/*=(_:_:)",
+                    "title": "static func *= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+(_:_:)",
+                    "title": "static func + (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/+=(_:_:)-75r0k",
+                    "title": "static func += (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:)-7binx",
+                    "title": "static func - (Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:_:)",
+                    "title": "static func - (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-=(_:_:)-9q37z",
+                    "title": "static func -= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/(_:_:)",
+                    "title": "static func \\/ (Half, Half) -> Half",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/\\/=(_:_:)",
+                    "title": "static func \\/= (inout Half, Half)",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-7dq13",
+                    "title": "init(Int)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(_:)-7kco9",
+                    "title": "init<Source>(Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(exactly:)-5u1uj",
+                    "title": "init?<Source>(exactly: Source)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(sign:exponent:significand:)",
+                    "title": "init(sign: FloatingPointSign, exponent: Int, significand: Half)",
+                    "type": "init"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/init(signof:magnitudeof:)",
+                    "title": "init(signOf: Self, magnitudeOf: Self)",
+                    "type": "init"
+                  },
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/exponent",
+                    "title": "var exponent: Int",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/floatingpointclass",
+                    "title": "var floatingPointClass: FloatingPointClassification",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/iscanonical",
+                    "title": "var isCanonical: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isfinite",
+                    "title": "var isFinite: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isinfinite",
+                    "title": "var isInfinite: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isnan",
+                    "title": "var isNaN: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isnormal",
+                    "title": "var isNormal: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/issignalingnan",
+                    "title": "var isSignalingNaN: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/issubnormal",
+                    "title": "var isSubnormal: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/iszero",
+                    "title": "var isZero: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/nextdown",
+                    "title": "var nextDown: Self",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/nextup",
+                    "title": "var nextUp: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/sign",
+                    "title": "var sign: FloatingPointSign",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/significand",
+                    "title": "var significand: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/ulp",
+                    "title": "var ulp: Half",
+                    "type": "property"
+                  },
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/addproduct(_:_:)",
+                    "title": "func addProduct(Half, Half)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/addingproduct(_:_:)",
+                    "title": "func addingProduct(Self, Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/formremainder(dividingby:)",
+                    "title": "func formRemainder(dividingBy: Half)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/formsquareroot()",
+                    "title": "func formSquareRoot()",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/formtruncatingremainder(dividingby:)",
+                    "title": "func formTruncatingRemainder(dividingBy: Half)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isequal(to:)",
+                    "title": "func isEqual(to: Half) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/isless(than:)",
+                    "title": "func isLess(than: Half) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/islessthanorequalto(_:)",
+                    "title": "func isLessThanOrEqualTo(Half) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/istotallyordered(beloworequalto:)",
+                    "title": "func isTotallyOrdered(belowOrEqualTo: Self) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/negate()-87nlz",
+                    "title": "func negate()",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/remainder(dividingby:)",
+                    "title": "func remainder(dividingBy: Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/round()",
+                    "title": "func round()",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/round(_:)",
+                    "title": "func round(FloatingPointRoundingRule)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/rounded()",
+                    "title": "func rounded() -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/rounded(_:)",
+                    "title": "func rounded(FloatingPointRoundingRule) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/squareroot()",
+                    "title": "func squareRoot() -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/truncatingremainder(dividingby:)",
+                    "title": "func truncatingRemainder(dividingBy: Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "title": "Type Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/greatestfinitemagnitude",
+                    "title": "static var greatestFiniteMagnitude: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/infinity",
+                    "title": "static var infinity: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/leastnonzeromagnitude",
+                    "title": "static var leastNonzeroMagnitude: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/leastnormalmagnitude",
+                    "title": "static var leastNormalMagnitude: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/nan",
+                    "title": "static var nan: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/pi",
+                    "title": "static var pi: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/radix",
+                    "title": "static var radix: Int",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/signalingnan",
+                    "title": "static var signalingNaN: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/ulpofone-7ie3h",
+                    "title": "static var ulpOfOne: Half",
+                    "type": "property"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/ulpofone-9epdf",
+                    "title": "static var ulpOfOne: Self",
+                    "type": "property"
+                  },
+                  {
+                    "title": "Type Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/maximum(_:_:)",
+                    "title": "static func maximum(Self, Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/maximummagnitude(_:_:)",
+                    "title": "static func maximumMagnitude(Self, Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/minimum(_:_:)",
+                    "title": "static func minimum(Self, Self) -> Self",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/minimummagnitude(_:_:)",
+                    "title": "static func minimumMagnitude(Self, Self) -> Self",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/floatingpoint-implementations",
+                "title": "FloatingPoint Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/hashvalue",
+                    "title": "var hashValue: Int",
+                    "type": "property"
+                  },
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/hash(into:)",
+                    "title": "func hash(into: inout Hasher)",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/hashable-implementations",
+                "title": "Hashable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/magnitude",
+                    "title": "var magnitude: Half",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/numeric-implementations",
+                "title": "Numeric Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/-(_:)-41q3r",
+                    "title": "static func - (Self) -> Self",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/negate()-qogj",
+                    "title": "func negate()",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/signednumeric-implementations",
+                "title": "SignedNumeric Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/advanced(by:)",
+                    "title": "func advanced(by: Half) -> Half",
+                    "type": "method"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/distance(to:)",
+                    "title": "func distance(to: Half) -> Half",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/strideable-implementations",
+                "title": "Strideable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/half\\/half\\/write(to:)",
+                    "title": "func write<Target>(to: inout Target)",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/half\\/half\\/textoutputstreamable-implementations",
+                "title": "TextOutputStreamable Implementations",
+                "type": "symbol"
+              }
+            ],
+            "path": "\\/documentation\\/half\\/half",
+            "title": "Half",
+            "type": "struct"
+          },
+          {
+            "title": "Standard Library Functions",
+            "type": "groupMarker"
+          },
+          {
+            "children": [
+              {
+                "title": "Functions",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/half\\/acos(_:)",
+                "title": "func acos(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/acosh(_:)",
+                "title": "func acosh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/asin(_:)",
+                "title": "func asin(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/asinh(_:)",
+                "title": "func asinh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/atan(_:)",
+                "title": "func atan(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/atan2(_:_:)",
+                "title": "func atan2(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/atanh(_:)",
+                "title": "func atanh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/cbrt(_:)",
+                "title": "func cbrt(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/copysign(_:_:)",
+                "title": "func copysign(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/cos(_:)",
+                "title": "func cos(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/cosh(_:)",
+                "title": "func cosh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/erf(_:)",
+                "title": "func erf(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/erfc(_:)",
+                "title": "func erfc(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/exp(_:)",
+                "title": "func exp(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/exp2(_:)",
+                "title": "func exp2(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/expm1(_:)",
+                "title": "func expm1(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/fdim(_:_:)",
+                "title": "func fdim(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/fmax(_:_:)",
+                "title": "func fmax(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/fmin(_:_:)",
+                "title": "func fmin(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/hypot(_:_:)",
+                "title": "func hypot(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/lgamma(_:)",
+                "title": "func lgamma(Half) -> (Half, Int)",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/log(_:)",
+                "title": "func log(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/log10(_:)",
+                "title": "func log10(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/log1p(_:)",
+                "title": "func log1p(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/log2(_:)",
+                "title": "func log2(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/logb(_:)",
+                "title": "func logb(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/nearbyint(_:)",
+                "title": "func nearbyint(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/nextafter(_:_:)",
+                "title": "func nextafter(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/pow(_:_:)",
+                "title": "func pow(Half, Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/remquo(_:_:)",
+                "title": "func remquo(Half, Half) -> (Half, Int)",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/rint(_:)",
+                "title": "func rint(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/sin(_:)",
+                "title": "func sin(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/sinh(_:)",
+                "title": "func sinh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/tan(_:)",
+                "title": "func tan(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/tanh(_:)",
+                "title": "func tanh(Half) -> Half",
+                "type": "func"
+              },
+              {
+                "path": "\\/documentation\\/half\\/tgamma(_:)",
+                "title": "func tgamma(Half) -> Half",
+                "type": "func"
+              }
+            ],
+            "path": "\\/documentation\\/half\\/standard-library-functions",
+            "title": "Standard Library Functions",
+            "type": "symbol"
+          }
+        ],
+        "path": "\\/documentation\\/half",
+        "title": "Half",
+        "type": "module"
+      }
+    ]
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}
