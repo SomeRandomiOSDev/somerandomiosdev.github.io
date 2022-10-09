@@ -3859,6 +3859,1010 @@
         "path": "\\/documentation\\/half",
         "title": "Half",
         "type": "module"
+      },
+      {
+        "children": [
+          {
+            "title": "Structures",
+            "type": "groupMarker"
+          },
+          {
+            "children": [
+              {
+                "title": "Operators",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&*(_:_:)-3u5ou",
+                "title": "static func &* (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&*(_:_:)-4mg1r",
+                "title": "static func &* (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&*(_:_:)-58tjs",
+                "title": "static func &* (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&*=(_:_:)-8nf6t",
+                "title": "static func &*= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&*=(_:_:)-pclb",
+                "title": "static func &*= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&+(_:_:)-2ku38",
+                "title": "static func &+ (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&+(_:_:)-9dv4o",
+                "title": "static func &+ (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&+(_:_:)-9e0li",
+                "title": "static func &+ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&+=(_:_:)-2k02u",
+                "title": "static func &+= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&+=(_:_:)-34mzu",
+                "title": "static func &+= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&-(_:_:)-5z61g",
+                "title": "static func &- (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&-(_:_:)-7j8qj",
+                "title": "static func &- (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&-(_:_:)-8wy0x",
+                "title": "static func &- (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&-=(_:_:)-2ti5q",
+                "title": "static func &-= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/&-=(_:_:)-7l73m",
+                "title": "static func &-= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/(_:_:)-4hukj",
+                "title": "static func .\\/ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/(_:_:)-qq3a",
+                "title": "static func .\\/ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/*(_:_:)-4vc0c",
+                "title": "static func * (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/*(_:_:)-88aoq",
+                "title": "static func * (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/*(_:_:)-9bxy9",
+                "title": "static func * (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/*=(_:_:)-1u89o",
+                "title": "static func *= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/*=(_:_:)-7e7cy",
+                "title": "static func *= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/+(_:)-8l57",
+                "title": "static func + (Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/+(_:_:)-6j7je",
+                "title": "static func + (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/+(_:_:)-7aa34",
+                "title": "static func + (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/+=(_:_:)-95mo7",
+                "title": "static func += (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/-(_:)",
+                "title": "static func - (Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/-(_:_:)-25f9m",
+                "title": "static func - (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/-(_:_:)-7tspz",
+                "title": "static func - (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/-=(_:_:)-19e1f",
+                "title": "static func -= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&*(_:_:)",
+                "title": "static func .&* (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&*=(_:_:)",
+                "title": "static func .&*= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&+(_:_:)",
+                "title": "static func .&+ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&+=(_:_:)",
+                "title": "static func .&+= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&-(_:_:)",
+                "title": "static func .&- (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.&-=(_:_:)",
+                "title": "static func .&-= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.*(_:_:)",
+                "title": "static func .* (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.*=(_:_:)",
+                "title": "static func .*= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.+(_:_:)",
+                "title": "static func .+ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.+=(_:_:)",
+                "title": "static func .+= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.-(_:_:)",
+                "title": "static func .- (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/'.-=(_:_:)",
+                "title": "static func .-= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-1k5fo",
+                "title": "static func \\/ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-3kg7d",
+                "title": "static func \\/ (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-4p1y8",
+                "title": "static func \\/ (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-6pbhp",
+                "title": "static func \\/ (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-8gwye",
+                "title": "static func \\/ (Complex<Scalar>, Scalar) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/(_:_:)-8zphx",
+                "title": "static func \\/ (Scalar, Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/=(_:_:)-1sccn",
+                "title": "static func \\/= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/=(_:_:)-7mtlb",
+                "title": "static func \\/= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/=(_:_:)-9g0nb",
+                "title": "static func \\/= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/\\/=(_:_:)-v142",
+                "title": "static func \\/= (inout Complex<Scalar>, Scalar)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/=(_:_:)-3pr17",
+                "title": "static func .\\/= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/=(_:_:)-90pm5",
+                "title": "static func .\\/= (inout Complex<Scalar>, Complex<Scalar>)",
+                "type": "op"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/~(_:)",
+                "title": "static func ~ (Complex<Scalar>) -> Complex<Scalar>",
+                "type": "op"
+              },
+              {
+                "title": "Initializers",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init()",
+                "title": "init()",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(_:)-138gg",
+                "title": "init<Source>(Complex<Source>)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(_:)-3c9gv",
+                "title": "init<Source>(Complex<Source>)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(_:)-66fs9",
+                "title": "init<Source>(Complex<Source>)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(_:)-7sua2",
+                "title": "init(Complex<Scalar>)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(_:)-8r2up",
+                "title": "init<Source>(Complex<Source>)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(real:imaginary:)-1mhqc",
+                "title": "init<Source>(real: Source, imaginary: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(real:imaginary:)-5y38",
+                "title": "init<Source>(real: Source, imaginary: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(real:imaginary:)-6ydc7",
+                "title": "init<Source>(real: Source, imaginary: Source)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(real:imaginary:)-721e9",
+                "title": "init(real: Scalar, imaginary: Scalar)",
+                "type": "init"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/init(real:imaginary:)-8gtus",
+                "title": "init<Source>(real: Source, imaginary: Source)",
+                "type": "init"
+              },
+              {
+                "title": "Instance Properties",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/angle-7jd0e",
+                "title": "var angle: Scalar",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/angle-9vw2l",
+                "title": "var angle: Scalar",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/imaginary",
+                "title": "var imaginary: Scalar",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/modulus-5707",
+                "title": "var modulus: Scalar",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/modulus-7cqqk",
+                "title": "var modulus: Scalar",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/real",
+                "title": "var real: Scalar",
+                "type": "property"
+              },
+              {
+                "title": "Instance Methods",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/addingreportingoverflow(_:)",
+                "title": "func addingReportingOverflow(Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/componentwisedividedreportingoverflow(by:)",
+                "title": "func componentwiseDividedReportingOverflow(by: Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/componentwisedividingfullwidth(_:)",
+                "title": "func componentwiseDividingFullWidth((high: Complex<Scalar>, low: Complex<Scalar.Magnitude>)) -> (quotient: Complex<Scalar>, remainder: Complex<Scalar>)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/componentwisemultipliedfullwidth(by:)",
+                "title": "func componentwiseMultipliedFullWidth(by: Complex<Scalar>) -> (high: Complex<Scalar>, low: Complex<Scalar.Magnitude>)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/componentwisemultipliedreportingoverflow(by:)",
+                "title": "func componentwiseMultipliedReportingOverflow(by: Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/conjugate()",
+                "title": "func conjugate() -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/dividedreportingoverflow(by:)",
+                "title": "func dividedReportingOverflow(by: Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/dividingfullwidth(_:)",
+                "title": "func dividingFullWidth(Complex<Scalar>.ExtendedComplex) -> (quotient: Complex<Scalar>, remainder: Complex<Scalar>)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/formconjugate()",
+                "title": "func formConjugate()",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/multipliedfullwidth(by:)",
+                "title": "func multipliedFullWidth(by: Complex<Scalar>) -> Complex<Scalar>.ExtendedComplex",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/multipliedreportingoverflow(by:)",
+                "title": "func multipliedReportingOverflow(by: Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/negate()",
+                "title": "func negate()",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/round()",
+                "title": "func round()",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/round(_:)",
+                "title": "func round(FloatingPointRoundingRule)",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/rounded()",
+                "title": "func rounded() -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/rounded(_:)",
+                "title": "func rounded(FloatingPointRoundingRule) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/string(withnotation:)-3dx2q",
+                "title": "func string(withNotation: Complex<Scalar>.Notation) -> String",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/string(withnotation:)-3yt2v",
+                "title": "func string(withNotation: Complex<Scalar>.Notation) -> String",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/subtractingreportingoverflow(_:)",
+                "title": "func subtractingReportingOverflow(Complex<Scalar>) -> (partialValue: Complex<Scalar>, overflow: Bool)",
+                "type": "method"
+              },
+              {
+                "title": "Type Aliases",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/extendedcomplex",
+                "title": "Complex.ExtendedComplex",
+                "type": "typealias"
+              },
+              {
+                "title": "Type Properties",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/i",
+                "title": "static var i: Complex<Scalar>",
+                "type": "property"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/one",
+                "title": "static var one: Complex<Scalar>",
+                "type": "property"
+              },
+              {
+                "title": "Type Methods",
+                "type": "groupMarker"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:)-2m07k",
+                "title": "static func random(in: ClosedRange<Scalar>) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:)-5vwyx",
+                "title": "static func random(in: ClosedRange<Scalar>) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:)-8mjpa",
+                "title": "static func random(in: Range<Scalar>) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:)-9xsx3",
+                "title": "static func random(in: Range<Scalar>) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:using:)-1cnna",
+                "title": "static func random<T>(in: ClosedRange<Scalar>, using: inout T) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:using:)-4jzk7",
+                "title": "static func random<T>(in: Range<Scalar>, using: inout T) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:using:)-5e06h",
+                "title": "static func random<T>(in: ClosedRange<Scalar>, using: inout T) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "path": "\\/documentation\\/complex\\/complex\\/random(in:using:)-8olmy",
+                "title": "static func random<T>(in: Range<Scalar>, using: inout T) -> Complex<Scalar>",
+                "type": "method"
+              },
+              {
+                "title": "Enumerations",
+                "type": "groupMarker"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Enumeration Cases",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/angle",
+                    "title": "case angle",
+                    "type": "case"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/euler",
+                    "title": "case euler",
+                    "type": "case"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/square",
+                    "title": "case square",
+                    "type": "case"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/trigonometric",
+                    "title": "case trigonometric",
+                    "type": "case"
+                  },
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/init(rawvalue:)",
+                    "title": "init?(rawValue: String)",
+                    "type": "init"
+                  },
+                  {
+                    "title": "Default Implementations",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "children": [
+                      {
+                        "title": "Operators",
+                        "type": "groupMarker"
+                      },
+                      {
+                        "path": "\\/documentation\\/complex\\/complex\\/notation\\/!=(_:_:)",
+                        "title": "static func != (Self, Self) -> Bool",
+                        "type": "op"
+                      }
+                    ],
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/equatable-implementations",
+                    "title": "Equatable Implementations",
+                    "type": "symbol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "title": "Initializers",
+                        "type": "groupMarker"
+                      },
+                      {
+                        "path": "\\/documentation\\/complex\\/complex\\/notation\\/init(from:)",
+                        "title": "init(from: Decoder) throws",
+                        "type": "init"
+                      },
+                      {
+                        "title": "Instance Properties",
+                        "type": "groupMarker"
+                      },
+                      {
+                        "path": "\\/documentation\\/complex\\/complex\\/notation\\/hashvalue",
+                        "title": "var hashValue: Int",
+                        "type": "property"
+                      },
+                      {
+                        "title": "Instance Methods",
+                        "type": "groupMarker"
+                      },
+                      {
+                        "path": "\\/documentation\\/complex\\/complex\\/notation\\/encode(to:)",
+                        "title": "func encode(to: Encoder) throws",
+                        "type": "method"
+                      },
+                      {
+                        "path": "\\/documentation\\/complex\\/complex\\/notation\\/hash(into:)",
+                        "title": "func hash(into: inout Hasher)",
+                        "type": "method"
+                      }
+                    ],
+                    "path": "\\/documentation\\/complex\\/complex\\/notation\\/rawrepresentable-implementations",
+                    "title": "RawRepresentable Implementations",
+                    "type": "symbol"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/notation",
+                "title": "Complex.Notation",
+                "type": "enum"
+              },
+              {
+                "title": "Default Implementations",
+                "type": "groupMarker"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/+(_:)-5h4gj",
+                    "title": "static func + (Self) -> Self",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/+(_:_:)-2tcqv",
+                    "title": "static func + (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/+=(_:_:)-185tl",
+                    "title": "static func += (inout Complex<Scalar>, Complex<Scalar>)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/+=(_:_:)-8sb4g",
+                    "title": "static func += (inout Self, Self)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/-(_:_:)-2fzti",
+                    "title": "static func - (Complex<Scalar>, Complex<Scalar>) -> Complex<Scalar>",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/-=(_:_:)-1sc4y",
+                    "title": "static func -= (inout Self, Self)",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/-=(_:_:)-8y8ag",
+                    "title": "static func -= (inout Complex<Scalar>, Complex<Scalar>)",
+                    "type": "op"
+                  },
+                  {
+                    "title": "Type Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/zero",
+                    "title": "static var zero: Complex<Scalar>",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/additivearithmetic-implementations",
+                "title": "AdditiveArithmetic Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/debugdescription",
+                    "title": "var debugDescription: String",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/customdebugstringconvertible-implementations",
+                "title": "CustomDebugStringConvertible Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/description",
+                    "title": "var description: String",
+                    "type": "property"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/customstringconvertible-implementations",
+                "title": "CustomStringConvertible Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/init(from:)",
+                    "title": "init(from: Decoder) throws",
+                    "type": "init"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/decodable-implementations",
+                "title": "Decodable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/encode(to:)",
+                    "title": "func encode(to: Encoder) throws",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/encodable-implementations",
+                "title": "Encodable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Operators",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/!=(_:_:)",
+                    "title": "static func != (Self, Self) -> Bool",
+                    "type": "op"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/==(_:_:)",
+                    "title": "static func == (Complex<Scalar>, Complex<Scalar>) -> Bool",
+                    "type": "op"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/equatable-implementations",
+                "title": "Equatable Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Initializers",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/init(arrayliteral:)",
+                    "title": "init(arrayLiteral: Scalar...)",
+                    "type": "init"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/expressiblebyarrayliteral-implementations",
+                "title": "ExpressibleByArrayLiteral Implementations",
+                "type": "symbol"
+              },
+              {
+                "children": [
+                  {
+                    "title": "Instance Methods",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "\\/documentation\\/complex\\/complex\\/hash(into:)",
+                    "title": "func hash(into: inout Hasher)",
+                    "type": "method"
+                  }
+                ],
+                "path": "\\/documentation\\/complex\\/complex\\/hashable-implementations",
+                "title": "Hashable Implementations",
+                "type": "symbol"
+              }
+            ],
+            "path": "\\/documentation\\/complex\\/complex",
+            "title": "Complex",
+            "type": "struct"
+          },
+          {
+            "title": "Functions",
+            "type": "groupMarker"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/abs(_:)",
+            "title": "func abs<F>(Complex<F>) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/acos(_:)-5pq0z",
+            "title": "func acos(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/acos(_:)-7cmov",
+            "title": "func acos(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/asin(_:)-65a3z",
+            "title": "func asin(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/asin(_:)-6oaql",
+            "title": "func asin(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/atan(_:)-2jhoy",
+            "title": "func atan(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/atan(_:)-m9aj",
+            "title": "func atan(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/clamp(_:_:_:)-1hvqd",
+            "title": "func clamp<F>(Complex<F>, Complex<F>, Complex<F>) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/clamp(_:_:_:)-64t3q",
+            "title": "func clamp<F>(Complex<F>, F, F) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/cos(_:)-2gvns",
+            "title": "func cos(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/cos(_:)-nn9s",
+            "title": "func cos(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/cosh(_:)-3l0zu",
+            "title": "func cosh(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/cosh(_:)-qdq9",
+            "title": "func cosh(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/csqrt(_:)",
+            "title": "func csqrt<F>(F) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/exp(_:)-3fqwd",
+            "title": "func exp(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/exp(_:)-8qwn4",
+            "title": "func exp(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log(_:)-7vogm",
+            "title": "func log(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log(_:)-qq8i",
+            "title": "func log(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log10(_:)-1igpn",
+            "title": "func log10(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log10(_:)-9ktrn",
+            "title": "func log10(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log2(_:)-6tx79",
+            "title": "func log2(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/log2(_:)-u3u3",
+            "title": "func log2(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/max(_:_:)",
+            "title": "func max<F>(Complex<F>, Complex<F>) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/min(_:_:)",
+            "title": "func min<F>(Complex<F>, Complex<F>) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/sin(_:)-4nm0b",
+            "title": "func sin(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/sin(_:)-7i980",
+            "title": "func sin(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/sinh(_:)-2qed8",
+            "title": "func sinh(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/sinh(_:)-3vt5x",
+            "title": "func sinh(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/sqrt(_:)",
+            "title": "func sqrt<F>(Complex<F>) -> Complex<F>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/tan(_:)-5ey79",
+            "title": "func tan(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/tan(_:)-6kcu2",
+            "title": "func tan(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/tanh(_:)-3xuct",
+            "title": "func tanh(Complex<Double>) -> Complex<Double>",
+            "type": "func"
+          },
+          {
+            "path": "\\/documentation\\/complex\\/tanh(_:)-5sshq",
+            "title": "func tanh(Complex<Float>) -> Complex<Float>",
+            "type": "func"
+          }
+        ],
+        "path": "\\/documentation\\/complex",
+        "title": "Complex",
+        "type": "module"
       }
     ]
   },
